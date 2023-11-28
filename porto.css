@@ -1,0 +1,77 @@
+@media screen and (min-width: 576px) {
+  .navbar .container-fluid .navbar-nav,
+  .navbar-expand-sm .container-fluid {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar {
+    width: 28vh;
+    height: 100vh;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nama h5 {
+    padding-left: 0;
+    color: white;
+    padding-top: 5px;
+  }
+  .borderscreen {
+    flex-direction: column;
+  }
+  .icon a {
+    margin: 10px 20px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  body {
+    display: flex;
+    margin: 30px 100px;
+  }
+
+  .jobdesk {
+    display: flex;
+    font-size: 18px;
+  }
+
+  .jobdesk li {
+    margin-left: -10px;
+    margin-right: 60px;
+  }
+
+  .nama h5 {
+    padding-left: 0;
+    color: white;
+    padding-top: 5px;
+  }
+}
+
+.nama h5 {
+  padding-left: 0;
+  color: white;
+  padding-top: 5px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+hr {
+  color: black;
+  margin: 15px 0;
+}
+
+.contact a {
+  color: black;
+  padding: 0 3px;
+}
+
+.borderscreen {
+  max-height: 140px;
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
